@@ -1,0 +1,26 @@
+COMP 1850 Assignment with React.js
+
+Purpose: To review HTML and CSS, except now with React.js Framework.
+Assignment: 2
+Description: Basic Information about the Student
+
+Steps
+=====
+
+1.) Create a React.js app. 
+-> Go to Terminal
+-> Open cmd (or open VS Code and open terminal)
+-> type in "npx create-react-app htmlassignment2"
+
+2.) Change the default App.css.
+-> Go to the App.css, adjust to your liking to fit the HTML & CSS assignment #2.
+(i.e. background-color, color, and etc.)
+
+3.) Change the default index.css.
+-> Go to the index.css, adjust to your liking to fit the HTML & CSS assignment #2.
+(i.e. flex, align-content, and etc.)
+
+4.) Use React.js Table instead. Let's say 'react-table'.
+-> Install 'react-table', type in 'npm install react-table'
+-> Check if it's successfully installed, check inside the terminal for fails.
+-> Check inside the package.json to see if it is under dependencies. 
