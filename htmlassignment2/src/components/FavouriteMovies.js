@@ -1,4 +1,5 @@
 import React from 'react'
+import Table from "react-bootstrap/Table"
 import movie1 from "../images/movie1.jpeg"
 import tomhanks from "../images/tomhanks.jpeg"
 import timallen from "../images/timallen.jpeg"
@@ -50,6 +51,12 @@ function FavouriteMovies() {
         {id: 10, role: "producer", character: "As Himself", staff: "Raplh Guggenheim", image: ralphguggenheim, link: "https://www.imdb.com/name/nm0346558/?ref_=fn_al_nm_1"},
     ]
 
+    const relatedLinks = [
+        {id: 1, description: "Official Website", website: "Disney", link: "https://toystory.disney.com"},
+        {id: 2, description: "Press Review", website: "Rotten Tomatoes", link: "https://www.rottentomatoes.com/m/toy_story"},
+        {id: 3, description: "Purchase DVD", website: "Amazon CA", link: "https://www.amazon.ca/s?k=Toy+Story+DVD&crid=35KE1RX5EERVY&sprefix=toy+story+dvd%2Caps%2C162&ref=nb_sb_noss_1"},
+    ]
+
     const castToyStoryItems = castToyStory.map((cast) =>
         <div style={staffContainer}>
             <img style={myActorThumbnail} src={cast.image}    />
@@ -58,6 +65,14 @@ function FavouriteMovies() {
                 <p>More information: <a href={cast.link}>Click Here</a></p>
             </div>
         </div>
+    )
+
+    const relatedLinkItems = relatedLinks.map((links) => 
+        <tr key={links.id}>
+            <td>{links.id}</td>
+            <td>{links.description}</td>
+            <td><a href={links.link}>{links.website}</a></td>
+        </tr>
     )
 
   return (
@@ -73,6 +88,16 @@ function FavouriteMovies() {
         </p>
         <h4>Cast</h4>
         {castToyStoryItems}
+        <Table>
+            <thead>
+                <tr>
+                    <th colSpan={3}>Related Websites</th>
+                </tr>
+            </thead>
+            <tbody>
+                {relatedLinkItems}
+            </tbody>
+        </Table>
         <Layout />
     </div>
   )
