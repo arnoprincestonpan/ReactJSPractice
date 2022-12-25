@@ -1,22 +1,24 @@
 import './App.css';
-import AssignmentTable from './components/assignmentTable';
-import BasicInformation from './components/basicInformation';
-import Reason from './components/reason';
+import {
+  BrowserRouter,
+  Routes,
+  Route,
+} from "react-router-dom"
+import HomePage from './components/HomePage';
+import FavouriteArtistsAndSongs from './components/FavouriteArtistsAndSongs';
+import FavouriteMovies from './components/FavouriteMovies';
 
 function App() {
   return (
-    <div className="App">
-      <header class="App-header">
-        <h1>COMP 1850 with React.js | Student Information</h1>
-        <p>This is a page where a student introduces himself.</p>
-        <p><b>This is recreation of the original assignment #2 from COMP 1850, but done with React.js</b></p>
-      </header>
-      <body>
-        <BasicInformation />
-        <Reason />
-        <AssignmentTable />
-      </body>
-    </div>
+    <BrowserRouter>
+      <main>
+        <Routes>
+          <Route path="/" element={<HomePage/>} />
+          <Route path="/favoriteartistsandsongs" element={<FavouriteArtistsAndSongs  />}/>
+          <Route path="/favouritemovies" element={<FavouriteMovies  />} />
+        </Routes>
+      </main>
+    </BrowserRouter>
   );
 
 
