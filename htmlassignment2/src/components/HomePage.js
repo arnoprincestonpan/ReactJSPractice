@@ -6,7 +6,7 @@ import Layout from "./Layout"
 
 function HomePage() {
   return (
-    <div className="App">
+    <div id="top" className="App">
       <header class="App-header">
         <h1>COMP 1850 with React.js | Student Information</h1>
         <p>This is a page where a student introduces himself.</p>
@@ -17,6 +17,12 @@ function HomePage() {
         <Reason />
         <AssignmentTable />
         <Layout />
+        <h4>
+          Page Navigation
+        </h4>
+        <ul>
+            <li><a href="#top">Top of Page</a></li>
+        </ul>
       </body>
     </div>
   )

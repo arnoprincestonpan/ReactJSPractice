@@ -77,7 +77,7 @@ function FavouriteMovies() {
 
   return (
     <div>
-        <h1>Favourite Movies</h1>
+        <h1 id="top">Favourite Movies</h1>
         <img style={myMovieThumbnail} src={movie1} alt="toy story"    />
         <h3>Toy Story</h3>
         <p>
@@ -99,6 +99,12 @@ function FavouriteMovies() {
             </tbody>
         </Table>
         <Layout />
+        <h4>
+          Page Navigation
+        </h4>
+        <ul>
+            <li><a href="#top">Top of Page</a></li>
+        </ul>
     </div>
   )
 }
