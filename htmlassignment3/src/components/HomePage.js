@@ -6,7 +6,6 @@ import japan from "../images/japan.jpg"
 import southkorea from "../images/southkorea.jpg"
 import taiwan from "../images/taiwan.jpg"
 import usa from "../images/usa.jpg"
-import Social from './Social'
 
 function HomePage() {
 
@@ -174,7 +173,6 @@ function HomePage() {
                     </tr>
                 </tbody>
             </table>
-            <Social />
         </div>
     )
 }

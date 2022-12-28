@@ -5,6 +5,7 @@ import HomePage from "./components/HomePage"
 import Layout from './components/Layout'
 import HTMLSemantics from "./components/HTMLSemantics"
 import CSSSelectors from "./components/CSSSelectors"
+import Social from "./components/Social"
 
 
 function App() {
@@ -25,6 +26,7 @@ function App() {
             </main>
           </BrowserRouter>
       </body>
+        <Social />
     </div>
   );
 }
