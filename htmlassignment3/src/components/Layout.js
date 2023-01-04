@@ -1,10 +1,14 @@
 import React from 'react'
+import "./Layout.css";
 import { Link, Outlet } from 'react-router-dom'
 
 function Layout() {
+  const navStyles = {
+    
+  }
   return (
     <>
-      <div>
+      <div class="nav-card">
         <h4>Navigation Pane</h4>
         <nav>
           <ul>

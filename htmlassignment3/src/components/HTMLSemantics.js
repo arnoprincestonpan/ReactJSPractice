@@ -1,4 +1,5 @@
 import React from 'react'
+import "./HTMLSemantics.css"
 
 function HTMLSemantics() {
   let currentDate = new Date()
@@ -33,7 +34,7 @@ function HTMLSemantics() {
       <p>Example: I am not marked. <mark>I am marked.</mark></p>
       <h3>Instructions</h3>
       <p>Simply enclose the string you want to highlight with an opening and closing mark tag.</p>
-      <h3>&lt;time&gt; and attribute datetime</h3>
+      <h2>&lt;time&gt; and attribute datetime</h2>
       <p>The time tag is to define a specific time. The important part is the attribute, this will define what a specific time means to the browser. 
         News articles can have time stamps, in search engines like Google, you can search specifically for which date a page/article was published. One of the best ways is to define a time. I made this around 09:00 to 12:00. Which is a Tuesday. Your calendars on your device also look for this date time. 
         You can find out more about this attribute on W3 Schools: &lt;time&gt;.</p>
