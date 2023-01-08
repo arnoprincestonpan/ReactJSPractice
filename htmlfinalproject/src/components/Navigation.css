@@ -10,10 +10,27 @@ img{
     height: 24px;
 }
 
+ul{
+    padding: 0;
+    margin: 0;
+
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
 li{
     display: flex;
-    flex-direction: row;
-    font-size: large;
+    align-items: top;
+    font-size: 1.5rem;
+    padding: 1rem;
+}
+
+@media (max-width: 990px){
+    li{
+        font-size: 1rem;
+        padding: .25rem;
+    }
 }
 
 a:hover{
@@ -26,7 +43,7 @@ a:link{
     text-transform: uppercase;
     color: orange;
     text-decoration: none;
-    text-shadow: 5px 5px 5px orange;
+    text-shadow: 5px 5px 5px darkorange;
 }
 
 a:visited{

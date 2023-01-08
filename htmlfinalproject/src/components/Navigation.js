@@ -32,7 +32,7 @@ function Navigation() {
       <div className="Nav">
         <h4>Navigation</h4>
         <nav>
-          <ul style={{ listStyleType: "none", marginLeft: "-20px" }}>
+          <ul>
             {categoriesItems}
           </ul>
         </nav>
