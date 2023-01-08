@@ -37,3 +37,7 @@ a:active{
     color: red;
     background-color: orange;
 }
+
+.active{
+    background-color: white;
+}

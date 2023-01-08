@@ -4,16 +4,16 @@ import{
   Routes,
   Route
 } from 'react-router-dom'
-import Home from './components/Home';
-import Navigation from './components/Navigation';
-import Banner from './components/Banner';
-import Restaurants from './components/Restaurants';
-import CookingAtHome from './components/CookingAtHome';
-import ContactMe from './components/ContactMe';
-import AboutMe from './components/AboutMe';
-import LoremIpsum from './components/LoremIpsum';
-import Gallery from './components/Gallery';
-import Footer from './components/Footer'
+import Home from './pages/Home';
+import Navigation from './components//Navigation';
+import Banner from './pages/Banner';
+import Restaurants from './pages/Restaurants';
+import CookingAtHome from './pages/CookingAtHome';
+import ContactMe from './pages/ContactMe';
+import AboutMe from './pages/AboutMe';
+import LoremIpsum from './pages/LoremIpsum';
+import Gallery from './pages/Gallery';
+import Footer from './pages/Footer'
 
 function App() {
   return (

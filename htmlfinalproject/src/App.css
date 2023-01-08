@@ -1,8 +1,11 @@
-.App {
-  text-align: center;
-  margin-left: 5px;
+* {
+  box-sizing: border-box;
 }
 
 body{
   background: #FADA5E;
+}
+
+.App {
+  text-align: center;
 }
