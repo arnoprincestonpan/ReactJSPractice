@@ -1,0 +1,52 @@
+.Nav{
+    display: flex;
+    justify-content: center;
+
+    border: 0.10rem solid black;
+    border-radius: 1rem;
+
+    background-color: #D5731C;
+}
+
+ul {
+    display: flex;
+    flex-shrink: 0;
+    gap: 1rem;
+
+    background-color: inherit;
+}
+
+li {
+    display: flex;
+    padding: 0.50rem;
+
+    background-color: inherit;
+}
+
+.active{
+    border: 0.10rem solid black;
+    background-color: brown;
+}
+
+a{
+    background-color: inherit;
+
+    text-shadow: 1px 1px 1px black;
+}
+
+a:link {
+    color: black;
+
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+a:visited {
+    color: lightgoldenrodyellow;
+}
+
+@media screen and (max-width: 720px){
+    a:link{
+        text-transform: capitalize;
+    }
+}

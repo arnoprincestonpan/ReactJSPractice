@@ -10,8 +10,11 @@ import Navbar from "./components/Navbar"
 
 function App() {
   return (
-    <>
       <div className = "container">
+        <header className = "banner">
+          <h1>Arno Princeston Pan | Web Developer</h1>
+        </header>
+        <Navbar />
         <Routes>
           <Route path="/" element={<Home  />}  />
           <Route path="/aboutme" element={<Aboutme  />}  />
@@ -20,9 +23,7 @@ function App() {
           <Route path="/programming" element={<Programming />}  />
           <Route path="/hobbies" element={<Hobbies  />}  />
         </Routes>
-        <Navbar />
       </div>
-    </>
   );
 }
 
