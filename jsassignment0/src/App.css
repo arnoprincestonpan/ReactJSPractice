@@ -1,4 +1,4 @@
-*{
+* {
   box-sizing: border-box;
   margin: 0;
   padding: 0.25rem;
@@ -24,46 +24,73 @@
   padding: 1rem;
 }
 
-.banner > h1{
+.banner>h1 {
   background-color: inherit;
 
   text-shadow: 1px 1px 1px lightslategrey;
 }
 
-.Aboutme{
+.Aboutme,
+.Home,
+.Education,
+.Interests,
+.Hobbies,
+.Programming {
   border: 0.10rem solid black;
-  border-radius:  1rem;
+  border-radius: 1rem;
 
   background-color: #F3CE53;
 }
 
-.Aboutme > h1{
+.Aboutme>h1,
+.Home>h1,
+.Education>h1,
+.Interests>h1,
+.Hobbies>h1,
+.Programming>h1 {
   border: 0.10rem solid black;
   border-radius: 1rem;
 
   padding: 0.50rem;
-}
-
-.Aboutme > h1{
   background-color: #FCAE1E;
 
   color: #54361D;
   text-shadow: 1px 1px 1px grey;
 }
 
-.Aboutme > h2, p, ul{
+.Aboutme>h2,p ,
+.Home>h2,p ,
+.Education>h2,h3,p,table ,
+.Interests>h2,p ,
+.Hobbies>h2,p ,
+.Programming>h2 {
   padding: 1rem;
   border-radius: 1rem;
 
   margin-top: 0.50rem;
 }
 
-.Aboutme > p{
+.Aboutme>p,
+.Home>p,
+.Education>p,
+.Interests>p,
+.Hobbies>p {
   border: 0.10rem solid black;
   border-radius: 1rem;
 }
 
-.Aboutme > ul > li{
+.Aboutme>ul>li,
+.Programming>ul>li,
+.Education>ul>li {
   background-color: #FFFACE;
   border-radius: 1rem;
+}
+
+.Education>img{
+  max-width: 100%;
+  max-height: 100%;
+  display: block;
+
+  border-radius: 1rem;
+  margin-top: 1rem;
 }

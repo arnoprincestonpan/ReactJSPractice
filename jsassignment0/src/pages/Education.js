@@ -1,25 +1,27 @@
 import React from 'react'
+import BCIT from "../images/bcit-burnaby.jpeg"
 
 function Education() {
     return (
-        <>
+        <div className="Education">
             <h1>Education</h1>
             <h2>Post Secondary</h2>
             <h3>BC Institute of Technology</h3>
-            <p>BCIT was first established as the British Columbia Vocational School in 1960. 
-            Eventually BCIT opened its Burnaby campus in 1964, with an initial enrollment of 
-            498 students. As of 2017, enrollment has grown to 18,755 Full-Time students and 
-            30,893 Part-Time students. 
+            <img src={BCIT} alt="bcit photo"    />
+            <p>BCIT was first established as the British Columbia Vocational School in 1960.
+                Eventually BCIT opened its Burnaby campus in 1964, with an initial enrollment of
+                498 students. As of 2017, enrollment has grown to 18,755 Full-Time students and
+                30,893 Part-Time students.
             </p>
             <h3>Profile</h3>
-            <ol>
+            <ul>
                 <li>School of Business & Media</li>
                 <li>School of Computing & Academic Studies</li>
                 <li>School of Construction & the Environment</li>
                 <li>School of Energy</li>
                 <li>School of Health Sciences</li>
                 <li>School of Transportation</li>
-            </ol>
+            </ul>
             <h3>Summary Table</h3>
             <table>
                 <thead>
@@ -59,7 +61,7 @@ function Education() {
                     </tr>
                 </tbody>
             </table>
-        </>
+        </div>
     )
 }
 
