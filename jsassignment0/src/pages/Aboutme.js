@@ -1,11 +1,16 @@
 import React from 'react'
 import "../App.css"
+import CartoonProfile from "../images/aboutme.png"
 
 function Aboutme() {
     return (
         <div className="Aboutme">
             <h1>About Me</h1>
             <h2>Arno Princeston Pan</h2>
+            <figure>
+                <img className="profile-image" src={CartoonProfile} alt="cartoon about me"    />
+                <figcaption>Cartoonized Image of Arno Pan.</figcaption>
+            </figure>
             <p>I am a recent graduate of BCIT's Computer Systems Technology Diploma <i>(Dec 2022)</i>.
                 I was formerly in the construction industry as a construction estimator. I decided to have a
                 career change after taking some programming courses in mid 2020. While looking for a job in the

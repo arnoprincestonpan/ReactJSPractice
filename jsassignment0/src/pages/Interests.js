@@ -1,10 +1,18 @@
 import React from 'react'
+import ExposedFilm from '../images/pexels-annushka-ahuja-exposed-film.jpg'
+import OlympusCamera from '../images/pexels-pixabay-olympus.jpg'
+import Lens from "../images/pexels-cody-king-lens.jpg"
 
 function Interests() {
   return (
     <div className="Interests">
       <h1>Interests</h1>
       <h2>Analog & Digital Photography</h2>
+      <div className="photography">
+        <img src={ExposedFilm} alt="Overexposed Ruined Film" />
+        <img src={OlympusCamera} alt="Olympus Digital Camera OM-D"/>
+        <img src={Lens} alt = "Holding Lens Up"/>
+      </div>
       <p>I grew up in an era where consumers transitioned from film cameras to digital cameras. So, I have always
         been curious about what things used to be like. I find the analog portion kind of nostalgic. As film tends to
         behave in a way that is hard to control. I have taken 35mm film photos and developed them myself and scanned them.
