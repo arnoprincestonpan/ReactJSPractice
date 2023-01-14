@@ -133,7 +133,7 @@ figure > img{
   height: auto;
 }
 
-.interesting-photos{
+.interesting-photos, .programming-logos{
   display: flex;
   flex-direction: row;
   margin-top: 1rem;
@@ -141,9 +141,10 @@ figure > img{
   border-radius: 1rem;
 }
 
-.interesting-photos > img{
+.interesting-photos > img, .programming-logos > img{
   overflow: hidden;
   height: auto;
+  width: auto;
   border: 1px solid whitesmoke;
   border-radius: 1rem;
   max-height: 400px;

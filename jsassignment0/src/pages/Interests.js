@@ -7,6 +7,7 @@ import HungWen from '../images/rakuten-monkeys-hung-wen-chen.jpg'
 import Rakuten from '../images/rakuten-monkeys-weekend-2020-cpbl-stats.jpg'
 import Ram from '../images/pexels-sergei-starostin-memory-ram.jpg'
 import Cpu from '../images/pexels-dave-morgan-cpu-fan-red.jpg'
+import Hdd from "../images/pexels-pixabay-hdd.jpg"
 
 
 function Interests() {
@@ -28,7 +29,7 @@ function Interests() {
       </p>
       <h2>Technology (Hardware)</h2>
       <div className="interesting-photos">
-        <img src={ExposedFilm} alt="Overexposed Ruined Film" />
+        <img src={Hdd} alt="Hard Drive" />
         <img src={Ram} alt="Stick Ram"/>
         <img src={Cpu} alt = "Cpu Cooler"/>
       </div>
