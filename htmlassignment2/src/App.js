@@ -4,7 +4,7 @@ import {
   Routes,
   Route,
 } from "react-router-dom"
-import HomePage from './components/HomePage';
+import HomePage from './pages/HomePage';
 import FavouriteArtistsAndSongs from './components/FavouriteArtistsAndSongs';
 import FavouriteMovies from './components/FavouriteMovies';
 

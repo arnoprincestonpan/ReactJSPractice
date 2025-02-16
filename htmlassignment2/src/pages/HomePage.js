@@ -1,8 +1,8 @@
 import React from "react"
-import BasicInformation from "./basicInformation"
-import Reason from "./reason"
-import AssignmentTable from "./assignmentTable"
-import Layout from "./Layout"
+import BasicInformation from "../components/basicInformation"
+import Reason from "../components/reason"
+import AssignmentTable from "../components/assignmentTable"
+import Layout from "../components/Layout"
 
 function HomePage() {
   return (
